@@ -42,7 +42,7 @@ export class ArticleComponent implements OnInit {
     this.route.url.subscribe(urlSegments => {
       console.log(urlSegments);
       /*Si on est dans la page de visu on enregistre et renvoie vers les articles*/
-      if (`${urlSegments[0].path}/` === 'article/') {
+      if (`${urlSegments[0]?.path}/` === 'article/') {
 
         // @ts-ignore
         this.articleService.deleteArticle(this.article.id).subscribe(() => {
