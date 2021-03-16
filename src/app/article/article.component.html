@@ -1,0 +1,13 @@
+
+<div *ngIf="this.article" class="article">
+  <h1 ><a [routerLink] = "['/article/', this.article?.id]">{{this.article?.title}}</a></h1>
+  <p>{{this.article?.content}}</p>
+
+  <hr>
+  <h3>Auteur : </h3>
+  <a href="{{this.article?.website}}" target="_blank">{{this.article?.author}}</a>
+
+  <hr>
+  <!--<button (click)="deleteArticle({{this.article.id}})"> REMOVE </button>-->
+  <button class="rmBtn" (click)="delete()">🗑 REMOVE 🗑</button>
+</div>

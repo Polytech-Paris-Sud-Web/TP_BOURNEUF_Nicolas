@@ -1,0 +1,27 @@
+#menu{
+  background-color: #d0f5e8;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.diva{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 5px;
+  border: 2px black solid;
+  border-radius: 5px;
+  font-weight: bolder;
+  background: gray;
+  color: white;
+  box-shadow: 5px 3px 3px grey;
+  cursor: pointer;
+}
+
+.diva:hover{
+  opacity: 0.5;
+  color: black;
+  box-shadow: 2px 0.5px 0.5px grey;
+}

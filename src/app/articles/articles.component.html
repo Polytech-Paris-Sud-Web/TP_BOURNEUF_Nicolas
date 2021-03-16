@@ -1,0 +1,8 @@
+<div id="articles">
+
+  <app-article-creation (createArticle)="create($event)"></app-article-creation>
+  <!-- <app-article *ngFor="let article of this.articles | async" [article]="this.article"></app-article> -->
+  <app-article *ngFor="let article of this.articles" [article]="this.article" (deleteArticle)="delete($event)"></app-article>
+
+</div>
+

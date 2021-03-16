@@ -1,0 +1,14 @@
+# Import de l'image à utiliser
+FROM node:14
+
+# Dossier de l'application
+WORKDIR /usr/src/simple-app
+
+# Copy de la db json
+COPY db.json ./
+
+# On install le server json qui servira de bd
+RUN npm install -g json-server
+
+CMD ["json-server", "--watch",  "db.json", "--host", "0.0.0.0"]
+EXPOSE 3000

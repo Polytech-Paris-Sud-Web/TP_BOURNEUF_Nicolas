@@ -1,0 +1,74 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "title": "My First Article",
+      "content": "Content",
+      "author": "Nicolas BOURNEUF",
+      "website": "https://github.com/NikoB9"
+    },
+    {
+      "id": 2,
+      "title": "My Second Article",
+      "content": "Content",
+      "author": "Nicolas BOURNEUF",
+      "website": "https://github.com/NikoB9"
+    },
+    {
+      "id": 3,
+      "title": "My Third Article",
+      "content": "Content",
+      "author": "Nicolas BOURNEUF",
+      "website": "https://github.com/NikoB9"
+    },
+    {
+      "id": 4,
+      "title": "My Fourth Article",
+      "content": "Content",
+      "author": "Nicolas BOURNEUF",
+      "website": "https://github.com/NikoB9"
+    },
+    {
+      "id": 5,
+      "title": "My Fifth Article",
+      "content": "Content",
+      "author": "Nicolas BOURNEUF",
+      "website": "https://github.com/NikoB9"
+    },
+    {
+      "id": 6,
+      "title": "My Sixth Article",
+      "content": "Content",
+      "author": "Nicolas BOURNEUF",
+      "website": "https://github.com/NikoB9"
+    },
+    {
+      "id": 7,
+      "title": "My Seventh Article",
+      "content": "Content",
+      "author": "Nicolas BOURNEUF",
+      "website": "https://github.com/NikoB9"
+    },
+    {
+      "title": "Title",
+      "content": "Article",
+      "author": "Nicolas Bourneuf",
+      "website": "https://github.com/NikoB9/",
+      "id": 8
+    },
+    {
+      "title": "Another post",
+      "content": "Article\nBlabla",
+      "author": "Nicolas Bourneuf",
+      "website": "https://github.com/NikoB9/",
+      "id": 9
+    },
+    {
+      "title": "Title",
+      "content": "Article",
+      "author": "Nicolas Bourneuf",
+      "website": "https://github.com/NikoB9/",
+      "id": 10
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+.rmBtn{
+  font-size: larger;
+  font-weight: bold;
+  background: #ff7d7d;
+  border-radius: 7px;
+  color: white;
+  box-shadow: 5px 3px 3px grey;
+  cursor: pointer;
+}
+
+.rmBtn:hover{
+  opacity: 0.5;
+  box-shadow: 2px 0.5px 0.5px grey;
+}

@@ -1,0 +1,25 @@
+version: "3.1"
+
+services:
+  front:
+    image: simpleapp-front
+    build:
+      context: .
+      dockerfile: Dockerfile
+    networks:
+        - simpleapp-network
+    ports:
+        - "4200:4200"
+
+  db:
+    image: simpleapp-db
+    build:
+      context: .
+      dockerfile: Dockerfile_back
+    networks:
+        - simpleapp-network
+    ports:
+      - "3000:3000"
+
+networks:
+  simpleapp-network:

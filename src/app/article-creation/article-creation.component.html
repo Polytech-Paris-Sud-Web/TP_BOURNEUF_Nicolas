@@ -1,0 +1,27 @@
+<div class="article">
+
+  <form [formGroup]="articleForm" (ngSubmit)="create()">
+    <h1>
+      <label class="center-block">Title:</label><br>
+        <input class="form-control" formControlName="title">
+    </h1>
+    <p><label class="center-block">Content:</label><br>
+      <textarea class="form-control" formControlName="content"></textarea>
+    </p>
+
+    <hr>
+    <h3>Auteur : </h3>
+    <label class="center-block">Name:</label><br>
+    <input class="form-control" formControlName="author">
+
+    <br>
+    <label class="center-block">Website:</label><br>
+    <input class="form-control" formControlName="website">
+
+
+    <hr>
+    <!--<button (click)="deleteArticle({{this.article.id}})"> REMOVE </button>-->
+    <button class="validBtn" [disabled]="articleForm.invalid" type="submit">AJOUTER</button>
+  </form>
+
+</div>
